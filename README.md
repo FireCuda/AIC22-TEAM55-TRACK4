@@ -44,6 +44,6 @@ python train_example_deit.py
 
 # Run results
 
-python detect.py --weights best.pt
+python detect.py --weights best.pt --source [path-to-folder-contain-video]
 
 
