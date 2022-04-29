@@ -8,6 +8,8 @@ cd yolor/
 
 Download: "yolor_p6.pt" for pretrain model, "best.pt" is our weight
 
+File "tray_detect_mosaicless_2303.pt" is the weight for ROI detect, we just take label tray from video testA, not special so you can take this weight to detect.
+
 Extract "out.zip" for classify model
 
 Extract "data.zip" into folder "/binary_classification" for train classify
