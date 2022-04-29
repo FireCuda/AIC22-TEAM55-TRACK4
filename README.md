@@ -18,7 +18,7 @@ Extract "data_train_yolor.zip" for train yolor
 
 # Installation
 
-pip install -r requirements.txt
+conda env create -f environment.yml
 
 git clone https://github.com/JunnYu/mish-cuda
 
